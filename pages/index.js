@@ -26,7 +26,7 @@ const Home = (props) => {
         </Head>
         <header className="home-header1">
           <header data-thq="thq-navbar" className="home-navbar">
-            <a href="#landing" className="home-link10">
+            <a href="#Landing" className="home-link10">
               <img
                 alt="14fintech"
                 src="/14fintech_logo-200h.png"
@@ -50,7 +50,7 @@ const Home = (props) => {
                 >
                   About
                 </a>
-                <a href="#Contact" className="home-link11 button-clean button">
+                <a href="#Contact" className="home-button2 button-clean button">
                   Contact
                 </a>
               </nav>
@@ -78,7 +78,7 @@ const Home = (props) => {
             <div data-thq="thq-mobile-menu" className="home-mobile-menu"></div>
           </header>
         </header>
-        <section id="landing" className="home-hero">
+        <section id="Landing" className="home-landing">
           <div className="home-heading1">
             <h1 className="home-header2">
               <span className="home-text10">Scale R&amp;D.</span>
@@ -128,7 +128,7 @@ const Home = (props) => {
                 </a>
               </div>
               <div className="home-links1">
-                <button className="home-button2 button-link button">
+                <button className="home-button3 button-link button">
                   <span>Follow us on Twitter</span>
                   <img
                     alt="image"
@@ -136,7 +136,7 @@ const Home = (props) => {
                     className="home-arrow1"
                   />
                 </button>
-                <button className="home-button3 button-link button">
+                <button className="home-button4 button-link button">
                   <span>Join us on Discord</span>
                   <img
                     alt="image"
@@ -148,14 +148,7 @@ const Home = (props) => {
             </div>
           </div>
         </section>
-        <div className="home-content2">
-          <a
-            href="https://example.com"
-            target="_blank"
-            rel="noreferrer noopener"
-          >
-            Link
-          </a>
+        <div id="Contact" className="home-content2">
           <Contact
             email1={
               <Fragment>
@@ -177,11 +170,11 @@ const Home = (props) => {
             rootClassName="contactroot-class-name"
           ></Contact>
         </div>
-        <section id="Contact" className="home-contact">
+        <section className="home-contact">
           <div className="home-container3">
             <div className="home-description3">
               <div className="home-links2">
-                <button className="home-button4 button-link button">
+                <button className="home-button5 button-link button">
                   <span>Follow us on Twitter</span>
                   <img
                     alt="image"
@@ -189,7 +182,7 @@ const Home = (props) => {
                     className="home-arrow3"
                   />
                 </button>
-                <button className="home-button5 button-link button">
+                <button className="home-button6 button-link button">
                   <span>Join us on Discord</span>
                   <img
                     alt="image"
@@ -242,16 +235,16 @@ const Home = (props) => {
               <div className="home-list1">
                 <h3 className="home-heading3">Site</h3>
                 <div className="home-items1">
-                  <button className="home-link14 button-clean button">
+                  <button className="home-link12 button-clean button">
                     About
                   </button>
-                  <button className="home-link15 button-clean button">
+                  <button className="home-link13 button-clean button">
                     Collection
                   </button>
-                  <button className="home-link16 button-clean button">
+                  <button className="home-link14 button-clean button">
                     Roadmap
                   </button>
-                  <button className="home-link17 button-clean button">
+                  <button className="home-link15 button-clean button">
                     Features
                   </button>
                 </div>
@@ -259,19 +252,19 @@ const Home = (props) => {
               <div className="home-list2">
                 <h3 className="home-heading4">Company</h3>
                 <div className="home-items2">
-                  <button className="home-link18 button-clean button">
+                  <button className="home-link16 button-clean button">
                     Team
                   </button>
-                  <button className="home-link19 button-clean button">
+                  <button className="home-link17 button-clean button">
                     Press
                   </button>
-                  <button className="home-link20 button-clean button">
+                  <button className="home-link18 button-clean button">
                     Terms
                   </button>
-                  <button className="home-link21 button-clean button">
+                  <button className="home-link19 button-clean button">
                     Limitations
                   </button>
-                  <button className="home-link22 button-clean button">
+                  <button className="home-link20 button-clean button">
                     Licenses
                   </button>
                 </div>
@@ -324,6 +317,8 @@ const Home = (props) => {
             display: flex;
             z-index: 1;
             position: fixed;
+            max-width: 100%;
+            min-width: 100%;
             align-items: center;
             flex-direction: column;
             background-color: #853939;
@@ -368,7 +363,7 @@ const Home = (props) => {
             color: rgb(255, 255, 255);
             text-decoration: none;
           }
-          .home-link11 {
+          .home-button2 {
             color: rgb(255, 255, 255);
             text-decoration: none;
           }
@@ -412,14 +407,15 @@ const Home = (props) => {
             justify-content: space-between;
             background-color: #fff;
           }
-          .home-hero {
+          .home-landing {
             gap: var(--dl-layout-space-sixunits);
             width: 100%;
             height: auto;
             display: flex;
             z-index: auto;
-            overflow: auto;
-            max-width: 1440px;
+            overflow: hidden;
+            max-width: 100%;
+            min-width: 100%;
             align-self: center;
             align-items: center;
             padding-top: var(--dl-layout-space-sixunits);
@@ -463,6 +459,9 @@ const Home = (props) => {
             gap: 120px;
             width: 100%;
             display: flex;
+            overflow: hidden;
+            max-width: 100%;
+            min-width: 100%;
             align-items: center;
             flex-direction: column;
             padding-bottom: var(--dl-layout-space-fiveunits);
@@ -526,7 +525,7 @@ const Home = (props) => {
             align-items: stretch;
             flex-direction: column;
           }
-          .home-button2 {
+          .home-button3 {
             display: flex;
             align-items: center;
             flex-direction: row;
@@ -537,7 +536,7 @@ const Home = (props) => {
             width: 25px;
             object-fit: cover;
           }
-          .home-button3 {
+          .home-button4 {
             display: flex;
             align-items: center;
             flex-direction: row;
@@ -550,9 +549,12 @@ const Home = (props) => {
           }
           .home-content2 {
             gap: var(--dl-layout-space-threeunits);
-            width: auto;
+            width: 100%;
             height: auto;
             display: flex;
+            overflow: hidden;
+            max-width: 100%;
+            min-width: 100%;
             align-self: center;
             align-items: flex-start;
             flex-direction: column;
@@ -569,7 +571,7 @@ const Home = (props) => {
           .home-contact {
             gap: 120px;
             width: 100%;
-            display: flex;
+            display: none;
             align-items: center;
             flex-direction: column;
             padding-bottom: var(--dl-layout-space-fiveunits);
@@ -598,7 +600,7 @@ const Home = (props) => {
             align-items: stretch;
             flex-direction: column;
           }
-          .home-button4 {
+          .home-button5 {
             display: flex;
             align-items: center;
             flex-direction: row;
@@ -609,7 +611,7 @@ const Home = (props) => {
             width: 25px;
             object-fit: cover;
           }
-          .home-button5 {
+          .home-button6 {
             display: flex;
             align-items: center;
             flex-direction: row;
@@ -625,8 +627,10 @@ const Home = (props) => {
             width: 100%;
             height: 145px;
             display: flex;
+            overflow: hidden;
             position: relative;
-            max-width: 1440px;
+            max-width: 100%;
+            min-width: 100%;
             align-items: flex-start;
             padding-top: 120px;
             padding-left: var(--dl-layout-space-fiveunits);
@@ -710,16 +714,16 @@ const Home = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
+          .home-link12 {
+            color: rgb(255, 255, 255);
+          }
+          .home-link13 {
+            color: rgb(255, 255, 255);
+          }
           .home-link14 {
             color: rgb(255, 255, 255);
           }
           .home-link15 {
-            color: rgb(255, 255, 255);
-          }
-          .home-link16 {
-            color: rgb(255, 255, 255);
-          }
-          .home-link17 {
             color: rgb(255, 255, 255);
           }
           .home-list2 {
@@ -740,6 +744,12 @@ const Home = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
+          .home-link16 {
+            color: rgb(255, 255, 255);
+          }
+          .home-link17 {
+            color: rgb(255, 255, 255);
+          }
           .home-link18 {
             color: rgb(255, 255, 255);
           }
@@ -747,12 +757,6 @@ const Home = (props) => {
             color: rgb(255, 255, 255);
           }
           .home-link20 {
-            color: rgb(255, 255, 255);
-          }
-          .home-link21 {
-            color: rgb(255, 255, 255);
-          }
-          .home-link22 {
             color: rgb(255, 255, 255);
           }
           .home-socials3 {
@@ -782,8 +786,18 @@ const Home = (props) => {
             align-self: center;
           }
           @media (max-width: 991px) {
+            .home-header1 {
+              display: flex;
+              overflow: hidden;
+            }
             .home-btn-group {
               display: none;
+            }
+            .home-landing {
+              display: flex;
+              overflow: hidden;
+              max-width: 100%;
+              min-width: 100%;
             }
             .home-heading1 {
               height: 377px;
@@ -794,11 +808,13 @@ const Home = (props) => {
               margin-top: var(--dl-layout-space-sixunits);
             }
             .home-content2 {
-              width: auto;
+              width: 100%;
               height: auto;
+              overflow: hidden;
             }
             .home-contact {
               width: 100%;
+              display: none;
             }
             .home-footer {
               height: auto;
@@ -808,19 +824,37 @@ const Home = (props) => {
             }
           }
           @media (max-width: 767px) {
+            .home-header1 {
+              width: 100%;
+              display: flex;
+              overflow: hidden;
+              max-width: 100%;
+              min-width: 100%;
+            }
             .home-navbar {
+              width: 100%;
+              display: flex;
+              overflow: hidden;
+              max-width: 100%;
+              min-width: 100%;
               padding-left: var(--dl-layout-space-twounits);
               padding-right: var(--dl-layout-space-twounits);
+              flex-direction: row;
             }
             .home-fintech {
               width: auto;
               height: 32px;
             }
-            .home-hero {
+            .home-landing {
+              width: 100%;
               height: 356px;
+              display: flex;
+              overflow: hidden;
+              max-width: 100%;
+              min-width: 100%;
               padding-top: var(--dl-layout-space-threeunits);
-              padding-left: var(--dl-layout-space-oneandhalfunits);
-              padding-right: var(--dl-layout-space-oneandhalfunits);
+              padding-left: 0px;
+              padding-right: 0px;
               padding-bottom: var(--dl-layout-space-twounits);
             }
             .home-heading1 {
@@ -845,10 +879,21 @@ const Home = (props) => {
             }
             .home-description1 {
               gap: var(--dl-layout-space-threeunits);
+              overflow: hidden;
+              max-width: 100%;
+              min-width: 100%;
+              flex-direction: column;
               padding-bottom: 0px;
+            }
+            .home-divider-image {
+              max-width: auto;
+            }
+            .home-container2 {
+              max-width: auto;
             }
             .home-description2 {
               gap: var(--dl-layout-space-threeunits);
+              max-width: auto;
               padding-left: var(--dl-layout-space-oneandhalfunits);
               padding-right: var(--dl-layout-space-oneandhalfunits);
             }
@@ -874,26 +919,46 @@ const Home = (props) => {
             .home-content2 {
               gap: var(--dl-layout-space-unit);
               width: 100%;
-              height: auto;
+              height: 100%;
+              overflow: hidden;
+              position: relative;
+              max-width: 100%;
+              min-width: 100%;
+              align-self: center;
             }
             .home-contact {
               gap: var(--dl-layout-space-threeunits);
+              display: none;
+              overflow: hidden;
+              max-width: 100%;
+              min-width: 100%;
               padding-bottom: 0px;
+            }
+            .home-container3 {
+              max-width: auto;
             }
             .home-description3 {
               gap: var(--dl-layout-space-threeunits);
+              max-width: auto;
               padding-left: var(--dl-layout-space-oneandhalfunits);
               padding-right: var(--dl-layout-space-oneandhalfunits);
             }
             .home-footer {
               gap: var(--dl-layout-space-oneandhalfunits);
+              width: 100%;
               height: auto;
+              overflow: hidden;
+              position: static;
+              max-width: 100%;
               padding-top: var(--dl-layout-space-fourunits);
               padding-left: var(--dl-layout-space-oneandhalfunits);
               padding-right: var(--dl-layout-space-oneandhalfunits);
             }
             .home-main {
               gap: var(--dl-layout-space-threeunits);
+              width: 50%;
+              overflow: hidden;
+              max-width: 50%;
               flex-direction: column;
               justify-content: flex-start;
             }
@@ -927,14 +992,20 @@ const Home = (props) => {
               display: flex;
             }
             .home-copyright {
+              width: auto;
               font-size: 14px;
+              max-width: auto;
             }
           }
           @media (max-width: 479px) {
+            .home-header1 {
+              display: flex;
+            }
             .home-navbar {
               width: 100%;
               padding: var(--dl-layout-space-unit);
-              max-width: auto;
+              max-width: 100%;
+              min-width: 100%;
             }
             .home-fintech {
               align-self: center;
@@ -952,6 +1023,9 @@ const Home = (props) => {
               height: auto;
               padding: 16px;
               background-color: #000000;
+            }
+            .home-landing {
+              display: flex;
             }
             .home-heading1 {
               height: 237px;
@@ -971,8 +1045,11 @@ const Home = (props) => {
               max-width: auto;
             }
             .home-content2 {
-              width: auto;
+              width: 100%;
               height: auto;
+            }
+            .home-contact {
+              display: none;
             }
             .home-footer {
               height: auto;

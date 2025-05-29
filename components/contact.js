@@ -58,9 +58,7 @@ const Contact = (props) => {
               <span className="contact-address thq-body-small">
                 {props.address1 ?? (
                   <Fragment>
-                    <span className="contact-text1">
-                      456 Test Ave, Bucharest
-                    </span>
+                    <span className="contact-text1">frtrgtr</span>
                   </Fragment>
                 )}
               </span>
@@ -177,12 +175,21 @@ const Contact = (props) => {
             .contact-contact20 {
               width: 934px;
             }
+            .contact-max-width {
+              overflow: hidden;
+              max-width: 100%;
+              min-width: 100%;
+            }
             .contactroot-class-name {
               align-self: center;
             }
           }
           @media (max-width: 767px) {
             .contact-max-width {
+              width: 100%;
+              overflow: hidden;
+              max-width: 100%;
+              min-width: 100%;
               flex-direction: column;
             }
             .contact-email {
@@ -193,6 +200,10 @@ const Contact = (props) => {
             }
             .contact-address {
               font-size: 20px;
+            }
+            .contactroot-class-name {
+              width: auto;
+              position: static;
             }
           }
           @media (max-width: 479px) {
