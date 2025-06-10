@@ -26,6 +26,18 @@ const Contact = (props) => {
                 )}
               </span>
             </div>
+            <a
+              href="https://calendly.com/ar-14fintech"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="contact-link"
+            >
+              <img
+                src={props.imageSrc}
+                alt={props.imageAlt}
+                className="contact-image"
+              />
+            </a>
           </div>
           <div className="contact-content2">
             <svg
@@ -70,6 +82,7 @@ const Contact = (props) => {
         {`
           .contact-contact20 {
             gap: var(--dl-layout-space-threeunits);
+            height: 388px;
             display: flex;
             overflow: hidden;
             position: relative;
@@ -85,8 +98,8 @@ const Contact = (props) => {
             gap: var(--dl-layout-space-oneandhalfunits);
             flex: 1;
             width: 100%;
+            height: 254px;
             display: flex;
-            flex-grow: 1;
             align-items: center;
             flex-shrink: 0;
             flex-direction: column;
@@ -107,6 +120,23 @@ const Contact = (props) => {
             font-style: normal;
             text-align: center;
             font-weight: 400;
+          }
+          .contact-link {
+            display: contents;
+          }
+          .contact-image {
+            width: 119px;
+            height: 96px;
+            margin-top: var(--dl-layout-space-halfunit);
+            object-fit: cover;
+            border-radius: var(--dl-layout-radius-radius4);
+            animation-name: none;
+            animation-delay: 0s;
+            text-decoration: none;
+            animation-duration: 300ms;
+            animation-direction: normal;
+            animation-iteration-count: 1;
+            animation-timing-function: ease;
           }
           .contact-content2 {
             gap: var(--dl-layout-space-oneandhalfunits);
@@ -170,6 +200,9 @@ const Contact = (props) => {
           .contact-text3 {
             display: inline-block;
           }
+          .contactroot-class-name {
+            height: auto;
+          }
 
           @media (max-width: 991px) {
             .contact-contact20 {
@@ -181,6 +214,10 @@ const Contact = (props) => {
               min-width: 100%;
             }
             .contactroot-class-name {
+              width: auto;
+              align-self: center;
+            }
+            .contactroot-class-name1 {
               align-self: center;
             }
           }
@@ -203,11 +240,19 @@ const Contact = (props) => {
             }
             .contactroot-class-name {
               width: auto;
+              height: auto;
+              position: static;
+            }
+            .contactroot-class-name1 {
+              width: auto;
               position: static;
             }
           }
           @media (max-width: 479px) {
             .contactroot-class-name {
+              width: auto;
+            }
+            .contactroot-class-name1 {
               width: auto;
             }
           }
@@ -222,6 +267,8 @@ Contact.defaultProps = {
   phone1: undefined,
   rootClassName: '',
   email1: undefined,
+  imageSrc: '/calendly-200h.jpg',
+  imageAlt: 'image',
 }
 
 Contact.propTypes = {
@@ -229,6 +276,8 @@ Contact.propTypes = {
   phone1: PropTypes.element,
   rootClassName: PropTypes.string,
   email1: PropTypes.element,
+  imageSrc: PropTypes.string,
+  imageAlt: PropTypes.string,
 }
 
 export default Contact

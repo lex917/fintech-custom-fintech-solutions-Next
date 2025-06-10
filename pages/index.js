@@ -46,11 +46,20 @@ const Home = (props) => {
               >
                 <a
                   href="#Description"
-                  className="home-button1 button-clean button"
+                  className="home-about button-clean button"
                 >
                   About
                 </a>
-                <a href="#Contact" className="home-button2 button-clean button">
+                <a
+                  href="#Services"
+                  className="home-services1 button-clean button"
+                >
+                  Services
+                </a>
+                <a
+                  href="#Contact"
+                  className="home-contact1 button-clean button"
+                >
                   Contact
                 </a>
               </nav>
@@ -60,7 +69,7 @@ const Home = (props) => {
                 <button className="social button">
                   <img
                     alt="image"
-                    src="/Icons/twitter.svg"
+                    src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
                     className="home-image1"
                   />
                 </button>
@@ -81,9 +90,11 @@ const Home = (props) => {
         <section id="Landing" className="home-landing">
           <div className="home-heading1">
             <h1 className="home-header2">
-              <span className="home-text10">Scale R&amp;D.</span>
+              <span>Accelerate Delivery.</span>
               <br></br>
-              <span>Cut Costs.</span>
+              <span>Reduce Overruns.</span>
+              <br></br>
+              <span>Scale Proactively.</span>
             </h1>
           </div>
           <div className="home-buttons">
@@ -96,97 +107,216 @@ const Home = (props) => {
         <section id="Description" className="home-description1">
           <img
             alt="image"
-            src="/data-1500w.jpg"
-            className="home-divider-image"
+            src="/data-200h.jpg"
+            className="home-divider-image1"
           />
           <div className="home-container2">
             <div className="home-description2">
               <div className="home-content1">
-                <p className="home-paragraph1">
-                  We design, develop, and maintain bespoke fintech solutions.
+                <span className="home-capital1">about</span>
+                <p className="home-paragraph10">
+                  One4fintech designs, develops, and maintains bespoke and
+                  custom fintech solutions.
                 </p>
-                <p className="home-paragraph2">
-                  We are experts in high-load, high- availability systems, with
-                  prior experiences at Morgan Stanley, National Bank, Euronext,
-                  thinkorswim, Broadridge, SGX, and other fintech leaders. 
+                <p className="home-paragraph11">
+                  Our team consists of seasoned engineers with expertise in
+                  high-load, high-availability distributed systems, bringing
+                  prior experience from top-tier institutions such as Morgan
+                  Stanley, National Bank, Euronext, Deutsche Bank, SGX,
+                  Broadridge, thinkorswim, and other prominent fintech leaders. 
                 </p>
-                <p className="home-paragraph3">
-                  We offer unparalleled leverage for your R&amp;D, product- and
-                  value-centricity, delivery aligned with PMI standards.
+                <p className="home-paragraph12">
+                  We offer unparalleled leverage for your organization, R&amp;D,
+                  product- and value-centricity, and delivery aligned with PMI
+                  standards.
                 </p>
-                <p className="home-paragraph4">
-                  Together, we challenge the norms, fuel innovation, and unlock
-                  new possibilities. We transform bold ideas into impactful
-                  technologies, driving meaningful change.
+                <p className="home-paragraph13">
+                  Together, we challenge the status quo, fuel innovation, and
+                  unlock new possibilities. We transform bold ideas into
+                  impactful technologies, driving meaningful change.
                 </p>
-                <a
-                  href="https://example.com"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  Link
-                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="Services" className="home-services2">
+          <img
+            alt="image"
+            src="/charts-1500w.png"
+            className="home-divider-image2"
+          />
+          <div className="home-container3">
+            <div className="home-description3">
+              <div className="home-content2">
+                <span className="home-capital2">Services</span>
+                <h1 className="home-header3">
+                  Your Strategic Execution Partner
+                </h1>
+                <p className="home-paragraph14">
+                  One4fintech provides multi-disciplinary teams and fractional
+                  product, technology, operations, and project leadership
+                  without the full-time costs and overheads.
+                </p>
+                <p className="home-paragraph15">
+                  Our experts have, on average, 10+ years of experience in their
+                  respective fields, with many holding advanced degrees and
+                  professional certifications. 
+                </p>
+                <p className="home-paragraph16">Key reasons to choose us:</p>
+                <p className="home-paragraph17">
+                  <span>✅ 1. Cost-effective expertise:</span>
+                  <br></br>
+                  <span>
+                    - Senior level thinking and execution without FTE salary and
+                    overhead costs
+                  </span>
+                  <br></br>
+                  <span>
+                    - Up to 60% lower total cost than an in-house employee (hour
+                    equivalent)
+                  </span>
+                  <br></br>
+                </p>
+                <p className="home-paragraph18">
+                  <span>🧭 2. Lean prioritization &amp; focus:</span>
+                  <br></br>
+                  <span>
+                    - Delivering what truly matters - clarifying value, cutting
+                    scope and distractions
+                  </span>
+                  <br></br>
+                  <span>
+                    - Outcome-driven product thinking, minus shiny-object
+                    syndrome
+                  </span>
+                </p>
+                <p className="home-paragraph19">
+                  <span>🔄 3. Agile leadership:</span>
+                  <br></br>
+                  <span>
+                    - Development sprints outcomes aligned with business
+                    priorities
+                  </span>
+                  <br></br>
+                  <span>
+                    - The productive  team - even when your resources are
+                    stretched thin
+                  </span>
+                </p>
+                <p className="home-paragraph20">
+                  <span>📣 4. Clear communication:</span>
+                  <br></br>
+                  <span>
+                    - Enabled by PMP-certified Technical  Project Managers
+                  </span>
+                  <br></br>
+                  <span>
+                    - Bridging leadership and engineering without the bias of
+                    internal politics
+                  </span>
+                </p>
+                <p className="home-paragraph21">
+                  <span className="home-text36">🔍 5. Fresh perspective:</span>
+                  <br></br>
+                  <span>- External insights and best practices</span>
+                  <br></br>
+                  <span>
+                    - Uncover inefficiencies and opportunities your team may
+                    overlook
+                  </span>
+                </p>
+                <p className="home-paragraph22">
+                  <span className="home-text41">
+                    🚀 6. Fast start, low commitment:
+                  </span>
+                  <br></br>
+                  <span>- Start in days, delivering value from day 1</span>
+                  <br></br>
+                  <span>
+                    - Pilots available from 40 human-hours (leveraged with AI)
+                  </span>
+                </p>
               </div>
               <div className="home-links1">
+                <button className="home-button1 button-link button">
+                  <span>Follow us on Twitter</span>
+                  <img
+                    alt="image"
+                    src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
+                    className="home-arrow1"
+                  />
+                </button>
+                <button className="home-button2 button-link button">
+                  <span>Join us on Discord</span>
+                  <img
+                    alt="image"
+                    src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
+                    className="home-arrow2"
+                  />
+                </button>
+              </div>
+              <a
+                href="https://example.com"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                Link
+              </a>
+            </div>
+          </div>
+        </section>
+        <div id="Contact" className="home-contact2">
+          <img
+            alt="image"
+            src="/contactus-200h.jpg"
+            className="home-divider-image3"
+          />
+          <span className="home-contact3">Contact</span>
+          <Contact
+            email1={
+              <Fragment>
+                <span className="home-text48">hello [at] 14fintech.com </span>
+              </Fragment>
+            }
+            phone1={
+              <Fragment>
+                <span className="home-text49">+1 917 259 1043</span>
+              </Fragment>
+            }
+            address1={
+              <Fragment>
+                <span className="home-text50">
+                  <span>14 Wall Street, New York, NY, 10005</span>
+                  <br></br>
+                  <br></br>
+                  <span>1250 Rene-Levesque blvd W, Montreal, QC, H3B 4W8</span>
+                  <br></br>
+                  <br></br>
+                  <span>Metro Plaza, Tallinn, 10111, Estonia</span>
+                </span>
+              </Fragment>
+            }
+            rootClassName="contactroot-class-name"
+            imageSrc="/calendly-200h.jpg"
+          ></Contact>
+        </div>
+        <section className="home-contact4">
+          <div className="home-container4">
+            <div className="home-description4">
+              <div className="home-links2">
                 <button className="home-button3 button-link button">
                   <span>Follow us on Twitter</span>
                   <img
                     alt="image"
-                    src="/Icons/arrow.svg"
-                    className="home-arrow1"
+                    src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
+                    className="home-arrow3"
                   />
                 </button>
                 <button className="home-button4 button-link button">
                   <span>Join us on Discord</span>
                   <img
                     alt="image"
-                    src="/Icons/arrow.svg"
-                    className="home-arrow2"
-                  />
-                </button>
-              </div>
-            </div>
-          </div>
-        </section>
-        <div id="Contact" className="home-content2">
-          <Contact
-            email1={
-              <Fragment>
-                <span className="home-text15">hello [at] 14fintech.com </span>
-              </Fragment>
-            }
-            phone1={
-              <Fragment>
-                <span className="home-text16">+1 917 259 1043</span>
-              </Fragment>
-            }
-            address1={
-              <Fragment>
-                <span className="home-text17">
-                  14 Wall Street, New York, NY, 10005
-                </span>
-              </Fragment>
-            }
-            rootClassName="contactroot-class-name"
-          ></Contact>
-        </div>
-        <section className="home-contact">
-          <div className="home-container3">
-            <div className="home-description3">
-              <div className="home-links2">
-                <button className="home-button5 button-link button">
-                  <span>Follow us on Twitter</span>
-                  <img
-                    alt="image"
-                    src="/Icons/arrow.svg"
-                    className="home-arrow3"
-                  />
-                </button>
-                <button className="home-button6 button-link button">
-                  <span>Join us on Discord</span>
-                  <img
-                    alt="image"
-                    src="/Icons/arrow.svg"
+                    src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
                     className="home-arrow4"
                   />
                 </button>
@@ -213,7 +343,7 @@ const Home = (props) => {
                 >
                   <img
                     alt="image"
-                    src="/Icons/twitter.svg"
+                    src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
                     className="home-image3"
                   />
                 </a>
@@ -279,7 +409,7 @@ const Home = (props) => {
               >
                 <img
                   alt="image"
-                  src="/Icons/twitter.svg"
+                  src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
                   className="home-image5"
                 />
               </a>
@@ -317,18 +447,19 @@ const Home = (props) => {
             display: flex;
             z-index: 1;
             position: fixed;
-            max-width: 100%;
+            max-width: auto;
             min-width: 100%;
             align-items: center;
             flex-direction: column;
             background-color: #853939;
           }
           .home-navbar {
-            width: 100%;
+            width: auto;
             display: flex;
             z-index: 1;
             position: fixed;
             max-width: 1440px;
+            min-width: 100%;
             align-items: center;
             padding-top: var(--dl-layout-space-threeunits);
             padding-left: var(--dl-layout-space-fiveunits);
@@ -342,7 +473,7 @@ const Home = (props) => {
             display: contents;
           }
           .home-fintech {
-            width: 200px;
+            width: 180px;
             height: auto;
             object-fit: cover;
             text-decoration: none;
@@ -359,12 +490,18 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: flex-end;
           }
-          .home-button1 {
+          .home-about {
             color: rgb(255, 255, 255);
             text-decoration: none;
           }
-          .home-button2 {
+          .home-services1 {
             color: rgb(255, 255, 255);
+            text-decoration: none;
+          }
+          .home-contact1 {
+            color: #ffcf77;
+            font-style: normal;
+            font-weight: 800;
             text-decoration: none;
           }
           .home-btn-group {
@@ -414,7 +551,7 @@ const Home = (props) => {
             display: flex;
             z-index: auto;
             overflow: hidden;
-            max-width: 100%;
+            max-width: auto;
             min-width: 100%;
             align-self: center;
             align-items: center;
@@ -437,7 +574,7 @@ const Home = (props) => {
           .home-header2 {
             color: rgb(255, 255, 255);
             height: 444px;
-            font-size: 90px;
+            font-size: 82px;
             max-width: 900px;
             align-self: center;
             font-style: normal;
@@ -460,23 +597,24 @@ const Home = (props) => {
             width: 100%;
             display: flex;
             overflow: hidden;
-            max-width: 100%;
+            max-width: auto;
             min-width: 100%;
             align-items: center;
             flex-direction: column;
-            padding-bottom: var(--dl-layout-space-fiveunits);
+            padding-bottom: var(--dl-layout-space-twounits);
           }
-          .home-divider-image {
-            width: 100%;
-            height: 102px;
-            max-width: 1440px;
+          .home-divider-image1 {
+            width: auto;
+            height: 144px;
+            max-width: var(--dl-layout-size-maxwidth);
+            min-width: 100%;
             object-fit: cover;
           }
           .home-container2 {
             width: 100%;
             display: flex;
             max-width: 1440px;
-            align-items: flex-end;
+            align-items: center;
             flex-direction: column;
           }
           .home-description2 {
@@ -484,7 +622,7 @@ const Home = (props) => {
             width: 100%;
             display: flex;
             max-width: 900px;
-            align-items: flex-start;
+            align-items: center;
             padding-left: var(--dl-layout-space-fiveunits);
             padding-right: var(--dl-layout-space-fiveunits);
             flex-direction: column;
@@ -492,32 +630,165 @@ const Home = (props) => {
           .home-content1 {
             gap: var(--dl-layout-space-threeunits);
             display: flex;
-            align-items: flex-start;
+            align-items: center;
+            flex-direction: column;
+            justify-content: flex-start;
+          }
+          .home-capital1 {
+            color: #ffcf77;
+            font-style: normal;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+          }
+          .home-paragraph10 {
+            color: rgb(255, 255, 255);
+            font-size: 32px;
+            text-align: justify;
+            line-height: 40px;
+          }
+          .home-paragraph11 {
+            color: rgb(255, 255, 255);
+            font-size: 32px;
+            text-align: justify;
+            line-height: 40px;
+          }
+          .home-paragraph12 {
+            color: rgb(255, 255, 255);
+            font-size: 32px;
+            text-align: justify;
+            line-height: 40px;
+          }
+          .home-paragraph13 {
+            color: rgb(255, 255, 255);
+            font-size: 32px;
+            text-align: justify;
+            line-height: 40px;
+          }
+          .home-services2 {
+            gap: 120px;
+            width: 100%;
+            display: flex;
+            overflow: hidden;
+            max-width: auto;
+            min-width: 100%;
+            align-items: center;
+            flex-direction: column;
+            padding-bottom: var(--dl-layout-space-unit);
+          }
+          .home-divider-image2 {
+            width: auto;
+            height: 144px;
+            max-width: var(--dl-layout-size-maxwidth);
+            min-width: 100%;
+            object-fit: cover;
+          }
+          .home-container3 {
+            width: 100%;
+            display: flex;
+            max-width: 1440px;
+            align-items: center;
             flex-direction: column;
           }
-          .home-paragraph1 {
-            color: rgb(255, 255, 255);
-            font-size: 40px;
-            text-align: justify;
-            line-height: 60px;
+          .home-description3 {
+            gap: var(--dl-layout-space-fiveunits);
+            width: 100%;
+            height: auto;
+            display: flex;
+            max-width: 900px;
+            align-items: center;
+            padding-left: var(--dl-layout-space-fiveunits);
+            padding-right: var(--dl-layout-space-fiveunits);
+            flex-direction: column;
+            padding-bottom: 0px;
           }
-          .home-paragraph2 {
-            color: rgb(255, 255, 255);
-            font-size: 40px;
-            text-align: justify;
-            line-height: 60px;
+          .home-content2 {
+            gap: var(--dl-layout-space-threeunits);
+            height: auto;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
           }
-          .home-paragraph3 {
-            color: rgb(255, 255, 255);
-            font-size: 40px;
-            text-align: justify;
-            line-height: 60px;
+          .home-capital2 {
+            fill: rgb(255, 207, 119);
+            color: rgb(255, 207, 119);
+            font-style: normal;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-transform: uppercase;
           }
-          .home-paragraph4 {
+          .home-header3 {
             color: rgb(255, 255, 255);
-            font-size: 40px;
+            height: auto;
+            font-size: 64px;
+            max-width: 900px;
+            align-self: center;
+            font-style: normal;
+            margin-top: 0px;
+            text-align: center;
+            font-weight: 500;
+            line-height: 76px;
+          }
+          .home-paragraph14 {
+            color: rgb(255, 255, 255);
+            font-size: 32px;
             text-align: justify;
-            line-height: 60px;
+            line-height: 40px;
+          }
+          .home-paragraph15 {
+            color: rgb(255, 255, 255);
+            font-size: 32px;
+            text-align: justify;
+            line-height: 36px;
+          }
+          .home-paragraph16 {
+            color: rgb(255, 255, 255);
+            font-size: 32px;
+            align-self: flex-start;
+            text-align: justify;
+            line-height: 36px;
+          }
+          .home-paragraph17 {
+            color: rgb(255, 255, 255);
+            font-size: 32px;
+            text-align: justify;
+            line-height: 40px;
+          }
+          .home-paragraph18 {
+            color: rgb(255, 255, 255);
+            width: 100%;
+            font-size: 32px;
+            text-align: justify;
+            line-height: 40px;
+          }
+          .home-paragraph19 {
+            color: rgb(255, 255, 255);
+            font-size: 32px;
+            text-align: justify;
+            line-height: 40px;
+          }
+          .home-paragraph20 {
+            color: rgb(255, 255, 255);
+            width: 100%;
+            font-size: 32px;
+            text-align: justify;
+            line-height: 40px;
+          }
+          .home-paragraph21 {
+            color: rgb(255, 255, 255);
+            width: 100%;
+            font-size: 32px;
+            text-align: justify;
+            line-height: 40px;
+          }
+          .home-paragraph22 {
+            color: rgb(255, 255, 255);
+            width: 100%;
+            font-size: 32px;
+            align-self: flex-start;
+            text-align: justify;
+            line-height: 40px;
           }
           .home-links1 {
             width: 100%;
@@ -525,7 +796,7 @@ const Home = (props) => {
             align-items: stretch;
             flex-direction: column;
           }
-          .home-button3 {
+          .home-button1 {
             display: flex;
             align-items: center;
             flex-direction: row;
@@ -536,7 +807,7 @@ const Home = (props) => {
             width: 25px;
             object-fit: cover;
           }
-          .home-button4 {
+          .home-button2 {
             display: flex;
             align-items: center;
             flex-direction: row;
@@ -547,28 +818,44 @@ const Home = (props) => {
             width: 25px;
             object-fit: cover;
           }
-          .home-content2 {
+          .home-contact2 {
             gap: var(--dl-layout-space-threeunits);
             width: 100%;
             height: auto;
             display: flex;
             overflow: hidden;
-            max-width: 100%;
+            max-width: auto;
             min-width: 100%;
             align-self: center;
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-text15 {
+          .home-divider-image3 {
+            width: auto;
+            height: 144px;
+            max-width: var(--dl-layout-size-maxwidth);
+            min-width: 100%;
+            align-self: center;
+            object-fit: cover;
+          }
+          .home-contact3 {
+            color: rgb(255, 207, 119);
+            align-self: center;
+            font-style: normal;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+          }
+          .home-text48 {
             display: inline-block;
           }
-          .home-text16 {
+          .home-text49 {
             display: inline-block;
           }
-          .home-text17 {
+          .home-text50 {
             display: inline-block;
           }
-          .home-contact {
+          .home-contact4 {
             gap: 120px;
             width: 100%;
             display: none;
@@ -576,14 +863,14 @@ const Home = (props) => {
             flex-direction: column;
             padding-bottom: var(--dl-layout-space-fiveunits);
           }
-          .home-container3 {
+          .home-container4 {
             width: 100%;
             display: flex;
             max-width: 1440px;
             align-items: flex-end;
             flex-direction: column;
           }
-          .home-description3 {
+          .home-description4 {
             gap: var(--dl-layout-space-fiveunits);
             width: 100%;
             display: flex;
@@ -600,7 +887,7 @@ const Home = (props) => {
             align-items: stretch;
             flex-direction: column;
           }
-          .home-button5 {
+          .home-button3 {
             display: flex;
             align-items: center;
             flex-direction: row;
@@ -611,7 +898,7 @@ const Home = (props) => {
             width: 25px;
             object-fit: cover;
           }
-          .home-button6 {
+          .home-button4 {
             display: flex;
             align-items: center;
             flex-direction: row;
@@ -629,7 +916,7 @@ const Home = (props) => {
             display: flex;
             overflow: hidden;
             position: relative;
-            max-width: 100%;
+            max-width: auto;
             min-width: 100%;
             align-items: flex-start;
             padding-top: 120px;
@@ -789,35 +1076,63 @@ const Home = (props) => {
             .home-header1 {
               display: flex;
               overflow: hidden;
+              max-width: auto;
             }
             .home-btn-group {
               display: none;
             }
             .home-landing {
+              height: auto;
               display: flex;
               overflow: hidden;
-              max-width: 100%;
+              max-width: auto;
               min-width: 100%;
+              margin-top: var(--dl-layout-space-sixunits);
+              padding-top: var(--dl-layout-space-unit);
+              padding-bottom: var(--dl-layout-space-unit);
             }
             .home-heading1 {
               height: 377px;
-              padding-bottom: 86px;
+              padding-top: 0px;
+              padding-bottom: 0px;
             }
             .home-header2 {
               height: 100%;
+              font-size: 64px;
+              max-width: auto;
               margin-top: var(--dl-layout-space-sixunits);
+              line-height: 84px;
             }
-            .home-content2 {
+            .home-description1 {
+              max-width: auto;
+            }
+            .home-services2 {
+              max-width: auto;
+              padding-bottom: 0px;
+            }
+            .home-description3 {
+              height: auto;
+              max-width: 100%;
+              padding-bottom: 0px;
+            }
+            .home-header3 {
+              height: 100%;
+              max-width: 100%;
+              margin-top: 0px;
+            }
+            .home-contact2 {
               width: 100%;
               height: auto;
               overflow: hidden;
+              max-width: auto;
             }
-            .home-contact {
+            .home-contact4 {
               width: 100%;
               display: none;
             }
             .home-footer {
               height: auto;
+              max-width: auto;
             }
             .home-copyright {
               font-size: 18px;
@@ -828,7 +1143,7 @@ const Home = (props) => {
               width: 100%;
               display: flex;
               overflow: hidden;
-              max-width: 100%;
+              max-width: auto;
               min-width: 100%;
             }
             .home-navbar {
@@ -847,12 +1162,13 @@ const Home = (props) => {
             }
             .home-landing {
               width: 100%;
-              height: 356px;
+              height: auto;
               display: flex;
               overflow: hidden;
-              max-width: 100%;
+              max-width: auto;
               min-width: 100%;
-              padding-top: var(--dl-layout-space-threeunits);
+              margin-top: var(--dl-layout-space-sixunits);
+              padding-top: var(--dl-layout-space-twounits);
               padding-left: 0px;
               padding-right: 0px;
               padding-bottom: var(--dl-layout-space-twounits);
@@ -865,31 +1181,34 @@ const Home = (props) => {
               padding-bottom: var(--dl-layout-space-halfunit);
             }
             .home-header2 {
-              width: 370px;
-              height: 189px;
+              width: auto;
+              height: auto;
               font-size: 36px;
-              max-width: 70%;
+              max-width: auto;
+              min-width: auto;
               margin-top: 69px;
-              line-height: 43px;
-            }
-            .home-text10 {
-              font-size: 36px;
-              max-width: 70%;
               line-height: 43px;
             }
             .home-description1 {
               gap: var(--dl-layout-space-threeunits);
               overflow: hidden;
-              max-width: 100%;
+              max-width: auto;
               min-width: 100%;
               flex-direction: column;
               padding-bottom: 0px;
             }
-            .home-divider-image {
-              max-width: auto;
+            .home-divider-image1 {
+              height: 92px;
+              max-width: var(--dl-layout-size-maxwidth);
             }
             .home-container2 {
+              height: auto;
               max-width: auto;
+              margin-left: var(--dl-layout-space-unit);
+              border-color: var(--dl-color-gray-black);
+              border-width: 1px;
+              margin-right: var(--dl-layout-space-unit);
+              margin-bottom: var(--dl-layout-space-twounits);
             }
             .home-description2 {
               gap: var(--dl-layout-space-threeunits);
@@ -900,44 +1219,129 @@ const Home = (props) => {
             .home-content1 {
               gap: var(--dl-layout-space-unit);
             }
-            .home-paragraph1 {
+            .home-paragraph10 {
               font-size: 20px;
               line-height: 30px;
             }
-            .home-paragraph2 {
+            .home-paragraph11 {
               font-size: 20px;
               line-height: 30px;
             }
-            .home-paragraph3 {
+            .home-paragraph12 {
               font-size: 20px;
               line-height: 30px;
             }
-            .home-paragraph4 {
+            .home-paragraph13 {
               font-size: 20px;
               line-height: 30px;
             }
-            .home-content2 {
-              gap: var(--dl-layout-space-unit);
-              width: 100%;
-              height: 100%;
-              overflow: hidden;
-              position: relative;
-              max-width: 100%;
-              min-width: 100%;
-              align-self: center;
-            }
-            .home-contact {
+            .home-services2 {
               gap: var(--dl-layout-space-threeunits);
-              display: none;
               overflow: hidden;
-              max-width: 100%;
+              max-width: auto;
               min-width: 100%;
+              flex-direction: column;
               padding-bottom: 0px;
+            }
+            .home-divider-image2 {
+              height: 92px;
+              max-width: var(--dl-layout-size-maxwidth);
             }
             .home-container3 {
               max-width: auto;
             }
             .home-description3 {
+              gap: var(--dl-layout-space-threeunits);
+              height: 100%;
+              max-width: auto;
+              padding-left: var(--dl-layout-space-oneandhalfunits);
+              padding-right: var(--dl-layout-space-oneandhalfunits);
+              padding-bottom: 0px;
+            }
+            .home-content2 {
+              gap: var(--dl-layout-space-unit);
+              margin-left: var(--dl-layout-space-unit);
+              margin-right: var(--dl-layout-space-unit);
+            }
+            .home-header3 {
+              width: auto;
+              height: auto;
+              font-size: 36px;
+              max-width: auto;
+              margin-top: var(--dl-layout-space-halfunit);
+              line-height: 43px;
+              margin-bottom: var(--dl-layout-space-halfunit);
+            }
+            .home-paragraph14 {
+              font-size: 20px;
+              line-height: 30px;
+            }
+            .home-paragraph15 {
+              font-size: 20px;
+              line-height: 30px;
+            }
+            .home-paragraph16 {
+              font-size: 20px;
+              line-height: 30px;
+            }
+            .home-paragraph17 {
+              font-size: 20px;
+              line-height: 30px;
+            }
+            .home-paragraph18 {
+              font-size: 20px;
+              line-height: 30px;
+            }
+            .home-paragraph19 {
+              font-size: 20px;
+              line-height: 30px;
+            }
+            .home-paragraph20 {
+              font-size: 20px;
+              line-height: 30px;
+            }
+            .home-paragraph21 {
+              font-size: 20px;
+              line-height: 30px;
+            }
+            .home-text36 {
+              font-size: 20px;
+              line-height: 30px;
+            }
+            .home-paragraph22 {
+              font-size: 20px;
+              line-height: 30px;
+            }
+            .home-text41 {
+              font-size: 20px;
+              line-height: 30px;
+            }
+            .home-contact2 {
+              gap: var(--dl-layout-space-unit);
+              width: 100%;
+              height: 100%;
+              overflow: hidden;
+              position: relative;
+              max-width: auto;
+              min-width: 100%;
+              align-self: center;
+            }
+            .home-divider-image3 {
+              height: 92px;
+              max-width: var(--dl-layout-size-maxwidth);
+            }
+            .home-contact4 {
+              gap: var(--dl-layout-space-threeunits);
+              display: none;
+              overflow: hidden;
+              max-width: auto;
+              min-width: 100%;
+              padding-bottom: 0px;
+            }
+            .home-container4 {
+              max-width: auto;
+            }
+            .home-description4 {
               gap: var(--dl-layout-space-threeunits);
               max-width: auto;
               padding-left: var(--dl-layout-space-oneandhalfunits);
@@ -949,7 +1353,7 @@ const Home = (props) => {
               height: auto;
               overflow: hidden;
               position: static;
-              max-width: 100%;
+              max-width: auto;
               padding-top: var(--dl-layout-space-fourunits);
               padding-left: var(--dl-layout-space-oneandhalfunits);
               padding-right: var(--dl-layout-space-oneandhalfunits);
@@ -1000,6 +1404,7 @@ const Home = (props) => {
           @media (max-width: 479px) {
             .home-header1 {
               display: flex;
+              max-width: auto;
             }
             .home-navbar {
               width: 100%;
@@ -1026,33 +1431,76 @@ const Home = (props) => {
             }
             .home-landing {
               display: flex;
+              max-width: auto;
+              margin-top: var(--dl-layout-space-sixunits);
+              padding-top: 0px;
+              padding-bottom: 0px;
             }
             .home-heading1 {
-              height: 237px;
+              height: auto;
             }
             .home-header2 {
-              width: 320px;
-              margin-top: var(--dl-layout-space-sixunits);
+              width: auto;
+              font-size: 32px;
+              margin-top: var(--dl-layout-space-unit);
+              line-height: 40px;
+              margin-bottom: var(--dl-layout-space-twounits);
             }
-            .home-divider-image {
-              width: 100%;
+            .home-description1 {
               max-width: auto;
+            }
+            .home-divider-image1 {
+              width: auto;
+              height: 64px;
+              max-width: var(--dl-layout-size-maxwidth);
             }
             .home-container2 {
               max-width: auto;
+              margin-bottom: var(--dl-layout-space-twounits);
             }
             .home-description2 {
               max-width: auto;
             }
+            .home-services2 {
+              max-width: auto;
+            }
+            .home-divider-image2 {
+              width: 100%;
+              height: 64px;
+              max-width: auto;
+            }
+            .home-container3 {
+              max-width: auto;
+            }
+            .home-description3 {
+              max-width: auto;
+            }
             .home-content2 {
+              border-color: var(--dl-color-gray-black);
+              border-width: 1px;
+            }
+            .home-header3 {
+              width: auto;
+              margin-top: var(--dl-layout-space-halfunit);
+              margin-bottom: var(--dl-layout-space-halfunit);
+            }
+            .home-contact2 {
               width: 100%;
               height: auto;
+              max-width: auto;
             }
-            .home-contact {
+            .home-divider-image3 {
+              width: 100%;
+              height: 64px;
+              max-width: auto;
+            }
+            .home-contact4 {
               display: none;
+              max-width: auto;
             }
             .home-footer {
               height: auto;
+              max-width: auto;
             }
             .home-copyright {
               font-size: 12px;
