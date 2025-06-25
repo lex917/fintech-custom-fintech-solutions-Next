@@ -33,8 +33,8 @@ const Contact = (props) => {
               className="contact-link"
             >
               <img
-                src={props.imageSrc}
                 alt={props.imageAlt}
+                src={props.imageSrc}
                 className="contact-image"
               />
             </a>
@@ -263,21 +263,21 @@ const Contact = (props) => {
 }
 
 Contact.defaultProps = {
+  imageSrc: '/calendly-200h.jpg',
   address1: undefined,
   phone1: undefined,
+  imageAlt: 'image',
   rootClassName: '',
   email1: undefined,
-  imageSrc: '/calendly-200h.jpg',
-  imageAlt: 'image',
 }
 
 Contact.propTypes = {
+  imageSrc: PropTypes.string,
   address1: PropTypes.element,
   phone1: PropTypes.element,
+  imageAlt: PropTypes.string,
   rootClassName: PropTypes.string,
   email1: PropTypes.element,
-  imageSrc: PropTypes.string,
-  imageAlt: PropTypes.string,
 }
 
 export default Contact
